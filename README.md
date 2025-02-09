@@ -18,3 +18,11 @@ In biopharmaceutical studies, it is often of interest to compare the effects of 
 surv_mlnmr: function to get the estimates from Weibull and Gompertz survival model
 
 surv_mlnmr_trans: function to get the estimates from log normal and log logistic survival model
+
+# References
+
+1. Bennett I, Gregory J, Smith S, Birnie R. Roche/MAIC. url: 10.5281/zenodo.6624152. 2022-06-08;version: 0.3.0.
+
+2. Gsteiger S, Howlett N, Ashlee B. gemtcPlus: Provides a suite of extension functions for NMA using the ‘gemtc‘ package. 2022. R package version
+1.0.0.
+

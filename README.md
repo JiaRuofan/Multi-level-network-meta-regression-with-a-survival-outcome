@@ -8,7 +8,9 @@ Ruofan Jia 1155165249@link.cuhk.edu.hk
 
 # Introduction
 
-R functions and codes for the manuscript Multi-level network meta-regression with a survival outcome and an application to NSCLC
+R functions and codes for the manuscript Multi-level network meta-regression with a survival outcome and an application to NSCLC.
+
+In biopharmaceutical studies, it is often of interest to compare the effects of two treatments (say, A and B), but data that contains a direct comparison is not available. However, there may exist studies that compare them against another competitor (say, C). In this case, an ``indirect'' comparison of treatments A versus B through C needs to be conducted. In this article, we consider the scenario where individual-level data is available for the comparison of A versus C, but only aggregated data, for example from a publication, is available for the comparison of B versus C. For such analysis, multi-level network meta regression (ML-NMR) is advantageously needed since it can combine evidence from multiple trials with either survival IPD or AgD and can compare the treatments of interest in any target population. Most of the existing ML-NMR studies have been focused on binary and continuous outcomes, while, relatively, research on censored survival outcomes remains limited with only one study modeling the marginal likelihood for aggregated data. Here, we aim to extend the ML-NMR for time-to-event outcomes. We consider multiple popular parametric survival models and develop Bayesian estimation approaches built on mean and median survival. 
 
 # Usage
 

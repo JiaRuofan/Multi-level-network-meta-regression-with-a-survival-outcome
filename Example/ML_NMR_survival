@@ -1,4 +1,4 @@
-################Function for simulation psedo-covariates
+################Function for simulating psedo-covariates
  
  cov_simu5<-function(x_dat,cor_refer,n_simu){
  n_cov<-dim(x_dat)[2]
@@ -43,7 +43,7 @@
  }
 
 
- #Weibull
+ #Construct parameters for mlnmr_survival
 
   ns=2
  n_cov=5
@@ -96,9 +96,10 @@
  st_list[[2]]<-c(1)
  st_list[[3]]<-c(2)
 
-  #Log Normal
+#Construct parameters for mlnmr_survival_trans
 
-   ns=2
+
+ ns=2
  n_cov=5
  nt=3
  n_ipd=1

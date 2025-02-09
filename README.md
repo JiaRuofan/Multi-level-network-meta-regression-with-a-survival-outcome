@@ -26,3 +26,4 @@ surv_mlnmr_trans: function to get the estimates from log normal and log logistic
 2. Gsteiger S, Howlett N, Ashlee B. gemtcPlus: Provides a suite of extension functions for NMA using the ‘gemtc‘ package. 2022. R package version
 1.0.0.
 
+3. Phillippo, D. M. multinma: Bayesian Network Meta-Analysis of Individual and Aggregate Data. url: 10.5281/zenodo.3904454. 2024. R package version 0.7.2.

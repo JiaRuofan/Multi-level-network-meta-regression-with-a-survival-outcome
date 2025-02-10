@@ -96,6 +96,8 @@
  st_list[[2]]<-c(1)
  st_list[[3]]<-c(2)
 
+mlnmr_survival(ns,n_ipd,n_agd,n_cov,nt,n_list,t_list,X_list,n_simu_list,delta_list,var_list,tr_list,st_list,burnin=20000,nloop=10000,sd_pr=0.1,type)
+
 #Construct parameters for mlnmr_survival_trans
 
 
@@ -173,4 +175,4 @@
  st_list[[2]]<-c(1)
  st_list[[3]]<-c(2)
 
- 
+ mlnmr_survival_trans(ns,n_ipd,n_agd,n_cov,nt,n_list,t_list,X_list,n_simu_list,tr_list,st_list,burnin=20000,nloop=10000,sd_pr=0.1,type)

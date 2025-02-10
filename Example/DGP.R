@@ -1,4 +1,4 @@
-
+library(MASS)
 ns<-2 #Number of studies
 nt<-3 #Number of treatments
 n_cov<-5 #Number of covariates

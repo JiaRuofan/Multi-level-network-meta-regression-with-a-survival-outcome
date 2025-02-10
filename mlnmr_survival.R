@@ -889,6 +889,7 @@ mlnmr_survival<-function(ns,n_ipd,n_agd,n_cov,nt,n_list,t_list,X_list,n_simu_lis
                return(simu_mean)
              })
              
+             
              f1<-1/sqrt(t_var)
              f2<-((t_sum-mean(simu_list))^2)*n/2/t_var
              

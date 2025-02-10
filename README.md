@@ -27,3 +27,6 @@ surv_mlnmr_trans: function to get the estimates from log normal and log logistic
 1.0.0.
 
 3. Wiecek W and Pafitis S. certara/survivalnma. 2019.	R package version 0.1.1.
+
+4. Remiro-Azócar A, Heath A, Baio G. Methods for population adjustment with limited access to individual patient data: a review and simulation
+study. Research synthesis methods. 2021;12(6):750–775.
